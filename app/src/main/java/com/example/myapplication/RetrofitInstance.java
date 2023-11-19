@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 
 public class RetrofitInstance {
-   public static final String API_URL = "https://karampuri.000webhostapp.com";
+   public static final String API_URL = "#";
     public static RetrofitInstance instance;
     ApiInterface apiInterface;
 
