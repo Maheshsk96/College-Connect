@@ -18,8 +18,8 @@ public class SendNotificationAPI {
 
         // Constants for defining the JSON media type, FCM API URL, and server key
         public static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
-        public static final String FCM_API = "https://fcm.googleapis.com/fcm/send";
-        public static final String SERVER_KEY = "AAAAKLCG04U:APA91bFyxXhxQkl3dkGWHSq6HUVAzWW6O99qCNlNDlYDje1Yge5idfGLwgpXdjNoSQN6j5BGE-4NftkGmesGw50lTLN2EvMo5huN0gcyTfqdog-kTd-Cx01ZZEkyhp8lUeUJLJslrQQX";
+        public static final String FCM_API = "#";
+        public static final String SERVER_KEY = "#";
 
         public void sendNotificationToTopic(String topic, String title, String body) {
             OkHttpClient client = new OkHttpClient();
