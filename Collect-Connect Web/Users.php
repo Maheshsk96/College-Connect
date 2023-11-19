@@ -8,8 +8,7 @@ if (isset($_POST['searchButton']))
     {
      $a = $_POST['searchInput'];
      
-     $getdata = "select s_roll,s_name,s_gender,s_mobile,s_email,s_dob,s_address,dname,year,sem from student s
-    join dept d on d.dno = s.dno where s_name ='$a' or s_roll = '$a'";
+     $getdata = #'";
 
     }
     
@@ -18,8 +17,7 @@ if (isset($_POST['searchButton']))
     $d = $_POST['department'];
     
     if (!empty($d)) {
-        $getdata = "select s_roll,s_name,s_gender,s_mobile,s_email,s_dob,s_address,dname,year,sem from student s
-        join dept d on d.dno = s.dno where s.dno = '$d'";
+        $getdata = "#";
         } 
     }
  
@@ -29,8 +27,7 @@ if (isset($_POST['searchButton']))
 }
 
 else{
-$getdata = "select s_roll,s_name,s_gender,s_mobile,s_email,s_dob,s_address,dname,year,sem from student s
-join dept d on d.dno = s.dno";
+$getdata = "#";
 }
 
 $result = mysqli_query($con,$getdata);
