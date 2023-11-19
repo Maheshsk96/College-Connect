@@ -7,7 +7,7 @@ if (isset($_POST['submit'])) {
     $uploadDir = $_SERVER['DOCUMENT_ROOT'] . "/uploaded_files/";
     $filename = uniqid() . "_" . $_FILES["file"]["name"];
     
-    $getfilepath = "https://karampuri.000webhostapp.com/uploaded_files/".$filename;
+    $getfilepath = "#".$filename;
     
     $uploadPath = $uploadDir . $filename;
    
