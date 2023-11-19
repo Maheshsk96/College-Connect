@@ -3,8 +3,8 @@
 // Set your OneSignal REST API Key and App ID
 
 function sendNotice($topic,$title,$body,$file,$rowId){
-$restApiKey = 'YzM5NDJlNjYtOTQwYy00M2QyLTg5MDgtNDljMDM3YzQ5Njlj';
-$appId = '374772e9-d615-43ee-b58e-d140b64a4b2a';
+$restApiKey = '#';
+$appId = '#';
 
 // Set the notification content
 $notification = array(
@@ -40,7 +40,7 @@ $headers = array(
 $ch = curl_init();
 
 // Set the cURL options
-curl_setopt($ch, CURLOPT_URL, 'https://onesignal.com/api/v1/notifications');
+curl_setopt($ch, CURLOPT_URL, '#');
 curl_setopt($ch, CURLOPT_POST, true);
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 curl_setopt($ch, CURLOPT_POSTFIELDS, $jsonNotification);
