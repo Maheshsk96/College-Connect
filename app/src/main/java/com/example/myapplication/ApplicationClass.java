@@ -12,7 +12,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class ApplicationClass extends Application {
-    private static final String ONESIGNAL_APP_ID = "374772e9-d615-43ee-b58e-d140b64a4b2a";
+    private static final String ONESIGNAL_APP_ID = "#";
     @Override
     public void onCreate() {
         super.onCreate();
